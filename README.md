@@ -46,7 +46,7 @@ The pipeline integrates:
 Install dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 How to Run
 Clone the repository:
 Bashgit clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
@@ -55,33 +55,6 @@ Install requirements:
 Bashpip install -r requirements.txt
 Run the main script or notebook (update paths according to your data location).
 Note: Due to the size of the MIT-BIH dataset, the raw data is not included. Please download it from PhysioNet.Results Summary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 MetricValueAccuracy99.91%ROC-AUC0.9979Precision (Abnormal)0.9984Recall (Abnormal)0.9962F1-score (Abnormal)0.9973CitationIf you use this work, please cite:Alikhani-Najafabadi, M., & Zarepour-Ahmadabadi, J. (2025). A Hybrid Prophet-MLP Approach for ECG Signal Classification.ContactMahtab Alikhani-Najafabadi
 
