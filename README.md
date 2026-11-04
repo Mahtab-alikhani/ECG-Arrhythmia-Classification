@@ -50,7 +50,8 @@ This project implements a hybrid framework for binary ECG arrhythmia detection o
 
 ## Project StructureBIH dataset, the raw data is not included. Please download it from PhysioNet.Results Sum
 
-Email: [mahtab.alikhani.nj@gmail.com]LicenseThis project is for academic and research purposes.text---
+Email: [mahtab.alikhani.nj@gmail.com]LicenseThis project is for academic and research purposes.
+
 
 requirements.txt content:textpandas
 numpy
@@ -72,3 +73,15 @@ Install the required libraries:
 ```bash
 pip install -r requirements.txt
 ```
+How to Run
+Clone the repository:
+Bashgit clone https://github.com/Mahtab-alikhani/ECG-Arrhythmia-Classification.git
+cd ECG-Arrhythmia-Classification
+Place the dataset files (mitbih_train.csv and mitbih_test.csv) in the same directory as the script.
+Run the code:
+Bashpython mlp&prophet_improved.pyModel ConfigurationThe best MLP configuration found by GridSearchCV:
+Hidden layers: (100,)
+Learning rate: 0.001
+Max iterations: 2000
+Activation: ReLU (default)
+Class weights: Balanced
