@@ -1,4 +1,4 @@
-```markdown
+
 # ECG Arrhythmia Detection with a Hybrid Prophet–MLP Pipeline
 
 A feature-based machine learning pipeline that classifies ECG heartbeats as **normal** or **abnormal**. It combines statistical features, Fast Fourier Transform (FFT) spectral features, and Prophet time-series residuals, and classifies them with a tuned Multi-Layer Perceptron (MLP).
